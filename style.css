@@ -7,11 +7,27 @@ body {
     background-color: #252525;
 }
 
+h1::before {
+    content: ">>> ";
+    color: #fcc0ee;
+}
+
+h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: "> ";
+    color: #fcc0ee;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
-    color: #f8f8f8;
+    color: #fcc0ee;
     margin-bottom: 0;
     margin-top: 0.6em;
+}
+
+button {
+    color: #f8f8f8f8;
+    background-color: #333333;
+    border: 1px solid #6c6c6c;
 }
 
 p {
