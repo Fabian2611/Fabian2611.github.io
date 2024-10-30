@@ -9,8 +9,8 @@ fetch(`https://api.github.com/users/Fabian2611/repos?sort=updated`)
         repos.slice(0, 2).forEach(repo => {
             const repoElement = document.createElement('div');
             repoElement.innerHTML = `
-                <p><b><a href="${repo.html_url}" target="_blank">${repo.name}</a></b></p>
-                <p><q>${repo.description || 'No description.'}</q></p>
+                <q><p><b><a href="${repo.html_url}" target="_blank">${repo.name}</a></b></p>
+                <p>${repo.description || 'No description.'}</p></q>
             `;
             repoContainer.appendChild(repoElement);
         });

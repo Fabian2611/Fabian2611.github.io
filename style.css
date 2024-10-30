@@ -56,15 +56,33 @@ p {
     margin: 0 0 0 0;
 }
 
-a {
+a, q a {
     color: #7977ff;
     margin: 0 0 0 0;
+    font-style: normal;
 }
 
 p.mini-header {
     color: #fcc0ee;
     font-size: 1.1em;
     font-weight: 700;
+}
+
+q {
+    color: #ecdcb9;
+    font-style: italic;
+}
+q {
+    display: block;
+    padding: 0.1em 0.5em;
+    margin: 0.1em 0;
+    margin-bottom: 0.4em;
+    border-left: 0.25em solid #4f4f4f;
+    background-color: #333333;
+}
+
+q::before {
+    content: "";
 }
 
 footer {
@@ -82,4 +100,8 @@ footer {
     text-align: center;
     align-items: center;
     display: flex;
+}
+
+div#final-buffer {
+    margin-bottom: 10%;
 }
