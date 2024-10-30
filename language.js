@@ -9,9 +9,9 @@ const translations = {
         text_introduction: "Hallo! Scheinbar bist du auf meiner Seite gelandet. Diese ist noch im Aufbau, also wirst du hier nicht viel Interessantes finden. Trotzdem, fühl dich frei, ein wenig herumzustöbern!",
         text_info: "Ich bin ein Student aus Deutschland und professioneller Softwareentwickler. Ich bin immer auf der Suche nach neuen Projekten, an denen ich arbeiten kann, und lade sie manchmal <a href='https://github.com/Fabian2611/'>hier auf Github</a> hoch.",
         text_info_1: "Ich war schon immer an Programmierung interessiert und habe mit 9 Jahren angefangen, mir selbst Python beizubringen. Programmieren ist mein größtes Hobby, aber ich spiele auch gerne Instrumente und mache Musik.",
+        text_social_0: "Hier kannst du mich finden:",
         text_contact_0: 'Am besten erreichst du mich über Discord an @FabianButHere, oder per Email an <a href="mailto:fabian.schwarz2010@gmail.com">fabian.schwarz2010@gmail.com</a>.',
-        text_contact_1: 'Andere Sozialen Medien gibt es auf <a href="https://linktr.ee/halfheartde">linktr.ee/halfheartde</a>.',
-        text_footer: "Mit ❤️ von Fabian2611 gemacht"
+        text_footer: "Mit ❤️ von Fabian2611"
     }
 };
 
