@@ -35,6 +35,23 @@ img.flag-img {
     margin-right: 0.2em
 }
 
+ul {
+    margin: 0 0 0 0;
+    padding-left: 1em;
+    list-style: none;
+}
+
+ul li::before {
+    content: '> ';
+    color: #fcc0ee;
+    margin-right: 0.1em;
+}
+
+ul li {
+    margin-bottom: 0.0em;
+    margin-top: 0.1em;
+}
+
 p {
     margin: 0 0 0 0;
 }
@@ -42,4 +59,10 @@ p {
 a {
     color: #7977ff;
     margin: 0 0 0 0;
+}
+
+p.mini-header {
+    color: #fcc0ee;
+    font-size: 1.1em;
+    font-weight: 700;
 }
