@@ -4,6 +4,7 @@ const translations = {
         heading: "Fabian2611s Homepage",
         heading_info: "Über mich",
         heading_projects: "Aktuelle Projekte",
+        heading_social: "Soziale Medien",
         heading_contact: "Kontakt",
 
         text_introduction: "Hallo! Scheinbar bist du auf meiner Seite gelandet. Diese ist noch im Aufbau, also wirst du hier nicht viel Interessantes finden. Trotzdem, fühl dich frei, ein wenig herumzustöbern!",
