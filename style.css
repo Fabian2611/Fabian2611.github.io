@@ -66,3 +66,20 @@ p.mini-header {
     font-size: 1.1em;
     font-weight: 700;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 6%;
+    background-color: #191919;
+    color: #f8f8f8;
+    font-size: 0.8em;
+    text-align: center;
+    align-items: center;   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
